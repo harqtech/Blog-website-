@@ -220,7 +220,7 @@ export default function App() {
           </Link>
 
           <img
-            src="/hamburger.svg"
+            src="/Hambuger.svg"
             alt="Menu"
             className="hamburger"
             onClick={() => setMenuOpen(!menuOpen)}
