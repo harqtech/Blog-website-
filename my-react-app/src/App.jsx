@@ -216,6 +216,9 @@ export default function App() {
               style={{ height: "36px" }}
             />
           </Link>
+
+          <img src="/hamburger.svg" alt="Menu" className="hamburger" />
+
           <div
             className="top-actions"
             style={{ display: "flex", alignItems: "center", gap: "10px" }}
