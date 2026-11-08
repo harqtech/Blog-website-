@@ -265,7 +265,7 @@ a.view {
 /* Mobile */
 @media (max-width: 768px) {
   .hamburger {
-    display: block;
+    display: block !important;
     width: 28px;
     height: 28px;
     cursor: pointer;
@@ -276,13 +276,11 @@ a.view {
   }
 
   .header {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: sticky;
+    top: 0;
     background: white;
-    border-top: 1px solid #eee;
     z-index: 1000;
+    border-bottom: 1px solid #eee;
   }
 
   .top-bar {
@@ -292,10 +290,6 @@ a.view {
 
   .nav-bar {
     display: none;
-  }
-
-  body {
-    padding-bottom: 70px;
   }
 
   .hero h1 {
