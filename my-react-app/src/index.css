@@ -276,7 +276,7 @@ a.view {
   }
 
   .top-actions {
-    display: none;
+    display: none !important;
   }
 
   .header {
