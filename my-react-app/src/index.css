@@ -358,4 +358,42 @@ a.view {
     width: 100%;
     height: auto;
   }
+
+  /* Newsletter */
+  div[style*="1312px"] {
+    width: 100% !important;
+    height: auto !important;
+    padding: 24px 16px !important;
+    margin: 20px auto !important;
+  }
+
+  div[style*="1312px"] > div > div {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  div[style*="1312px"] input {
+    width: 100% !important;
+    height: 48px !important;
+  }
+
+  div[style*="1312px"] button {
+    width: 100% !important;
+    height: 48px !important;
+  }
+
+  /* Footer */
+  footer {
+    padding: 32px 16px !important;
+  }
+
+  footer div[style*="grid"] {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  footer div[style*="flex"] {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
 }
