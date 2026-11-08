@@ -100,6 +100,10 @@ body {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .hero {
   background:
     linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)),
@@ -290,6 +294,22 @@ a.view {
 
   .nav-bar {
     display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    gap: 12px;
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 0;
   }
 
   .hero h1 {

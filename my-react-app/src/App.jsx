@@ -205,6 +205,8 @@ function BlogDetail() {
 }
 
 export default function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <header className="header">
@@ -217,7 +219,12 @@ export default function App() {
             />
           </Link>
 
-          <img src="/hamburger.svg" alt="Menu" className="hamburger" />
+          <img
+            src="/hamburger.svg"
+            alt="Menu"
+            className="hamburger"
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
 
           <div
             className="top-actions"
@@ -296,6 +303,47 @@ export default function App() {
           </nav>
         </div>
       </header>
+
+      {menuOpen && (
+        <div className="mobile-menu">
+          <button
+            className="btn-account"
+            style={{ width: "100%", marginBottom: "10px" }}
+          >
+            Account
+          </button>
+          <button
+            className="btn-assessment"
+            style={{ width: "100%", marginBottom: "16px" }}
+          >
+            Take Assessment
+          </button>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            About
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            What We Do
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            Jobs
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            Projects
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            TG Academy
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            Strategic Partnership
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            Pricing
+          </a>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            Book a Consultation
+          </a>
+        </div>
+      )}
 
       <Routes>
         <Route path="/" element={<BlogList />} />
