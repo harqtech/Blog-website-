@@ -419,6 +419,9 @@ export default function App() {
                   Sustainability Services
                 </a>
                 <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  Strategy Planning and Implementation
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
                   Tech Talent Solutions
                 </a>
                 <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
@@ -426,6 +429,9 @@ export default function App() {
                 </a>
                 <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
                   IT Consulting Services
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  Social Impact
                 </a>
               </div>
             </div>
@@ -450,10 +456,25 @@ export default function App() {
                   Projects
                 </a>
                 <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  Our Founder
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  Business Model
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  The Team
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
                   Contact Us
                 </a>
                 <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
                   Blog
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  FAQs
+                </a>
+                <a href="#" style={{ color: "#ccc", textDecoration: "none" }}>
+                  Testimonials
                 </a>
               </div>
             </div>
