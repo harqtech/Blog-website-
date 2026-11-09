@@ -407,14 +407,14 @@ a.view {
     font-size: 16px !important;
   }
 
-  footer a {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 14px;
+  footer div[style*="flexDirection: column"] {
+    flex-direction: column !important;
   }
 
-  footer div[style*="flex"] {
-    flex-direction: row !important;
-    gap: 12px !important;
+  footer a {
+    display: block !important;
+    margin-bottom: 8px;
+    font-size: 14px;
+    width: 100%;
   }
 }
