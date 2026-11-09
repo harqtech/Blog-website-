@@ -483,81 +483,73 @@ export default function App() {
 
           <div
             style={{
-              width: "1312px",
+              width: "100%",
               maxWidth: "100%",
               margin: "0 auto 30px",
               padding: "20px",
               background: "#1a0a14",
               borderRadius: "8px",
               boxSizing: "border-box",
-              display: "flex",
-              gap: "40px",
               color: "white",
             }}
           >
-            <div style={{ flex: 1 }}>
-              <h4 style={{ marginBottom: "12px" }}>Registered Offices</h4>
-              <div
-                style={{
-                  display: "flex",
-                  gap: "40px",
-                  fontSize: "14px",
-                  color: "#ccc",
-                  flexWrap: "wrap",
-                }}
-              >
-                <div>
-                  <strong style={{ color: "#ef4353" }}>United Kingdom</strong>
-                  <p>07491196 (Registered by Company House)</p>
-                  <p>
-                    Vibe Complex, 213 North Street, Romford, Essex, United
-                    Kingdom, RM1 4QA
-                  </p>
-                </div>
-                <div>
-                  <strong style={{ color: "#ef4353" }}>Nigeria</strong>
-                  <p>
-                    RC 1049723 (Registered by the Corporate Affairs Commission)
-                  </p>
-                  <p>4 Muaz Close, Abakaliki, Ebonyi</p>
-                </div>
-              </div>
+            <h4 style={{ marginBottom: "12px" }}>Contact Information</h4>
+            <div
+              style={{ fontSize: "14px", color: "#ccc", marginBottom: "20px" }}
+            >
+              <p>📧 theteam@tobamsgroup.com</p>
+              <p>📞 +447886600748</p>
             </div>
 
-            <div style={{ width: "280px", minWidth: "200px" }}>
-              <h4 style={{ marginBottom: "12px" }}>Contact Information</h4>
-              <div style={{ fontSize: "14px", color: "#ccc" }}>
-                <p>📧 theteam@tobamsgroup.com</p>
-                <p>📞 +447886600748</p>
+            <h4 style={{ marginBottom: "12px" }}>Registered Offices</h4>
+            <div style={{ fontSize: "14px", color: "#ccc" }}>
+              <div style={{ marginBottom: "16px" }}>
+                <strong style={{ color: "#ef4353" }}>United Kingdom</strong>
+                <p>07491196 (Registered by Company House)</p>
+                <p>
+                  Vibe Complex, 213 North Street, Romford, Essex, United
+                  Kingdom, RM1 4QA
+                </p>
+              </div>
+              <div>
+                <strong style={{ color: "#ef4353" }}>Nigeria</strong>
+                <p>
+                  RC 1049723 (Registered by the Corporate Affairs Commission)
+                </p>
+                <p>4 Muaz Close, Abakaliki, Ebonyi</p>
               </div>
             </div>
           </div>
 
           <div
             style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
+              textAlign: "center",
               paddingTop: "20px",
               borderTop: "1px solid #333",
               fontSize: "14px",
               color: "#999",
-              flexWrap: "wrap",
-              gap: "12px",
             }}
           >
-            <span>Copyright © Tobams Group, 2024. All rights reserved.</span>
-            <div style={{ display: "flex", gap: "20px" }}>
-              <a href="#" style={{ color: "#999", textDecoration: "none" }}>
-                Terms and Conditions
-              </a>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                gap: "20px",
+                marginBottom: "12px",
+                flexWrap: "wrap",
+              }}
+            >
               <a href="#" style={{ color: "#999", textDecoration: "none" }}>
                 Privacy Policy
               </a>
               <a href="#" style={{ color: "#999", textDecoration: "none" }}>
                 Cookies Policy
               </a>
+              <a href="#" style={{ color: "#999", textDecoration: "none" }}>
+                Terms and Conditions
+              </a>
             </div>
+            <span>Copyright © Tobams Group, 2024. All rights reserved.</span>
           </div>
         </div>
       </footer>
