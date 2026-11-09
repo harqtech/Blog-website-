@@ -109,49 +109,56 @@ function BlogList() {
         style={{
           width: "1312px",
           maxWidth: "100%",
+          height: "281px",
           margin: "40px auto",
           background: "#f3f0f5",
-          padding: "40px 64px",
+          padding: "64px",
           borderRadius: "8px",
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
           boxSizing: "border-box",
         }}
       >
-        <h2 style={{ fontSize: "28px", fontWeight: 600, marginBottom: "8px" }}>
-          Sign Up for Our Newsletter
-        </h2>
-        <p style={{ color: "#555", marginBottom: "16px" }}>
-          Subscribe to receive our latest company updates
-        </p>
-        <div style={{ display: "flex", gap: "12px", maxWidth: "700px" }}>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            style={{
-              flex: 1,
-              height: "48px",
-              padding: "0 16px",
-              border: "1px solid #ddd",
-              borderRadius: "6px",
-              fontSize: "14px",
-              background: "white",
-            }}
-          />
-          <button
-            style={{
-              background: "#571244",
-              color: "white",
-              border: "none",
-              padding: "0 28px",
-              height: "48px",
-              borderRadius: "6px",
-              fontSize: "14px",
-              cursor: "pointer",
-              fontWeight: 500,
-              whiteSpace: "nowrap",
-            }}
+        <div>
+          <h2
+            style={{ fontSize: "28px", fontWeight: 600, marginBottom: "8px" }}
           >
-            Subscribe
-          </button>
+            Sign Up for Our Newsletter
+          </h2>
+          <p style={{ color: "#555", marginBottom: "16px" }}>
+            Subscribe to receive our latest company updates
+          </p>
+          <div style={{ display: "flex", gap: "12px", maxWidth: "700px" }}>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              style={{
+                flex: 1,
+                height: "48px",
+                padding: "0 16px",
+                border: "1px solid #ddd",
+                borderRadius: "6px",
+                fontSize: "14px",
+                background: "white",
+              }}
+            />
+            <button
+              style={{
+                background: "#571244",
+                color: "white",
+                border: "none",
+                padding: "0 28px",
+                height: "48px",
+                borderRadius: "6px",
+                fontSize: "14px",
+                cursor: "pointer",
+                fontWeight: 500,
+              }}
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
     </>
