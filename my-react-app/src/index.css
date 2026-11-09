@@ -394,11 +394,22 @@ a.view {
 
   footer div[style*="grid"] {
     grid-template-columns: 1fr !important;
-    gap: 24px !important;
+    gap: 28px !important;
+  }
+
+  footer h4 {
+    margin-bottom: 12px !important;
+    font-size: 16px !important;
+  }
+
+  footer a {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
   }
 
   footer div[style*="flex"] {
-    flex-direction: column !important;
-    gap: 16px !important;
+    flex-direction: row !important;
+    gap: 12px !important;
   }
 }
