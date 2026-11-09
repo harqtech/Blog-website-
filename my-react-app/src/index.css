@@ -183,12 +183,16 @@ input {
 select {
   width: 190px;
   height: 40px;
-  padding: 8px 12px;
+  padding: 8px 36px 8px 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background: white;
+  background: white url("/dropdown.svg") no-repeat right 12px center;
+  background-size: 16px;
   font-size: 14px;
   box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .grid {
@@ -341,7 +345,8 @@ a.view {
     height: 40px;
     padding: 0;
     font-size: 0;
-    background: white;
+    background: white url("/dropdown.svg") no-repeat center;
+    background-size: 16px;
     border: 1px solid #ddd;
     border-radius: 8px;
     appearance: none;
