@@ -365,26 +365,26 @@ a.view {
   }
 
   /* Newsletter */
-  div[style*="1312px"] {
+  div[style*="background: #f3f0f5"] {
     width: 100% !important;
     height: auto !important;
     padding: 24px 16px !important;
     margin: 20px auto !important;
   }
 
-  div[style*="1312px"] > div > div {
+  div[style*="background: #f3f0f5"] input {
+    width: 100% !important;
+    height: 48px !important;
+  }
+
+  div[style*="background: #f3f0f5"] button {
+    width: 100% !important;
+    height: 48px !important;
+  }
+
+  div[style*="background: #f3f0f5"] div[style*="display: flex"] {
     flex-direction: column !important;
     gap: 12px !important;
-  }
-
-  div[style*="1312px"] input {
-    width: 100% !important;
-    height: 48px !important;
-  }
-
-  div[style*="1312px"] button {
-    width: 100% !important;
-    height: 48px !important;
   }
 
   /* Footer */
