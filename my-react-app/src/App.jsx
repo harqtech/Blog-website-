@@ -511,33 +511,46 @@ export default function App() {
               background: "#1a0a14",
               borderRadius: "8px",
               boxSizing: "border-box",
+              display: "flex",
+              gap: "40px",
               color: "white",
+              flexWrap: "wrap",
             }}
           >
-            <h4 style={{ marginBottom: "12px" }}>Contact Information</h4>
-            <div
-              style={{ fontSize: "14px", color: "#ccc", marginBottom: "20px" }}
-            >
-              <p>📧 theteam@tobamsgroup.com</p>
-              <p>📞 +447886600748</p>
+            <div style={{ flex: 1, minWidth: "280px" }}>
+              <h4 style={{ marginBottom: "12px" }}>Registered Offices</h4>
+              <div
+                style={{
+                  display: "flex",
+                  gap: "40px",
+                  fontSize: "14px",
+                  color: "#ccc",
+                  flexWrap: "wrap",
+                }}
+              >
+                <div>
+                  <strong style={{ color: "#ef4353" }}>United Kingdom</strong>
+                  <p>07491196 (Registered by Company House)</p>
+                  <p>
+                    Vibe Complex, 213 North Street, Romford, Essex, United
+                    Kingdom, RM1 4QA
+                  </p>
+                </div>
+                <div>
+                  <strong style={{ color: "#ef4353" }}>Nigeria</strong>
+                  <p>
+                    RC 1049723 (Registered by the Corporate Affairs Commission)
+                  </p>
+                  <p>4 Muaz Close, Abakaliki, Ebonyi</p>
+                </div>
+              </div>
             </div>
 
-            <h4 style={{ marginBottom: "12px" }}>Registered Offices</h4>
-            <div style={{ fontSize: "14px", color: "#ccc" }}>
-              <div style={{ marginBottom: "16px" }}>
-                <strong style={{ color: "#ef4353" }}>United Kingdom</strong>
-                <p>07491196 (Registered by Company House)</p>
-                <p>
-                  Vibe Complex, 213 North Street, Romford, Essex, United
-                  Kingdom, RM1 4QA
-                </p>
-              </div>
-              <div>
-                <strong style={{ color: "#ef4353" }}>Nigeria</strong>
-                <p>
-                  RC 1049723 (Registered by the Corporate Affairs Commission)
-                </p>
-                <p>4 Muaz Close, Abakaliki, Ebonyi</p>
+            <div style={{ width: "280px", minWidth: "200px" }}>
+              <h4 style={{ marginBottom: "12px" }}>Contact Information</h4>
+              <div style={{ fontSize: "14px", color: "#ccc" }}>
+                <p>📧 theteam@tobamsgroup.com</p>
+                <p>📞 +447886600748</p>
               </div>
             </div>
           </div>
