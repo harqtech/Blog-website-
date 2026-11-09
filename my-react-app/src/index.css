@@ -415,6 +415,12 @@ a.view {
     display: block !important;
     margin-bottom: 8px;
     font-size: 14px;
-    width: 100%;
+    width: auto;
+  }
+
+  footer div[style*="textAlign: center"] > div {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px !important;
   }
 }
